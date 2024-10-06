@@ -4,7 +4,7 @@ import profile from '../assets/my.jpg';
 
 const About = () => {
   return (
-    <Container id="about" className="my-5">
+    <Container id="about" className="my-5 pt-4">
       <Row>
         <Col md={4}>
           <Image src={profile} roundedCircle fluid style={{ width: '55%', height: 'auto', objectFit: 'cover', aspectRatio: '1 / 1' }} />
